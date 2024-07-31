@@ -1,0 +1,95 @@
+@media all and (max-width: 990px) {
+    .nav-bar ul li{
+        display: none;
+    }
+    
+    .nav-bar .menu{
+        display: block;
+        color: white;
+    }
+    
+    .section{
+        flex-wrap: wrap;
+    }
+    .container {
+        width: 40%;
+        margin-bottom:  50px;
+    }
+
+    .trainers {
+        flex-wrap: wrap;
+    }
+
+    .hero{
+        width: 45%;
+    }
+
+}
+
+@media all and (max-width: 760px) {
+    header{
+        /* height: 70vh; */
+    }
+    
+    .nav-bar{
+        padding: 20px;
+    }
+    
+    .nav-bar ul {
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .head{
+        width: 80%;
+        margin-top: 30px;
+    }
+    .container{
+        width: 80%;   
+    }
+
+    
+    .hero{
+        width: 100%;
+    }
+
+    figcaption{
+        flex-direction: column;
+    }
+
+    figcaption img, form{
+        width: 100%;
+    }
+
+    .contact{
+        text-align: center;
+        width: 100%;
+    }
+
+    #msg{
+        margin-bottom: 20px;
+    }
+    .btn {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    #footer{
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 20px 0;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .container{
+        flex: 100%;
+    }
+
+
+}
