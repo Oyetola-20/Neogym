@@ -1,300 +1,306 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 header {
-    background-image: url(./images/hero-bg.jpg);
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    width: 100%;
+  background-image: url(./images/hero-bg.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
 }
 
 .nav-bar h1 {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 .nav-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 90px;
 }
 
 .nav-bar ul {
-    display: flex;
+  display: flex;
 }
 
 .nav-bar ul li {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
-.nav-bar ul li a{
-    transition: 0.5s; 
+.nav-bar ul li a {
+  transition: 0.5s;
 }
 
 .nav-bar ul a:hover {
-    border-bottom: 3px solid red;
-    padding-bottom: 3px;
+  border-bottom: 3px solid red;
+  padding-bottom: 3px;
 }
 
-.nav-bar .search{
-    cursor: pointer;
+.nav-bar .search {
+  cursor: pointer;
 }
 
-.nav-bar .menu{
-    display: none;
+.nav-bar .menu {
+  display: none;
 }
 
 .head {
-    text-align: center;
-    line-height: 1.5;
-    margin: 0 auto;
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 5% 0;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5% 0;
 }
 
 .head h3 {
-    font-size: 30px;
-    font-weight: 700;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .head h2 {
-    font-size: 40px;
-    font-weight: 700;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .head h1 {
-    font-size: 50px;
-    font-weight: 700;
+  font-size: 50px;
+  font-weight: 700;
 }
 
 .head p {
-    margin: 35px 0px;
+  margin: 35px 0px;
 }
 
 .head a {
-    border: 1px solid white;
-    padding: 10px 30px;
+  border: 1px solid white;
+  padding: 10px 30px;
 }
 
 .head a:hover {
-    background-color: tomato;
-    transition: 0.5s;
+  background-color: tomato;
+  transition: 0.5s;
 }
 
 main {
-    background-image: url(./images/us-bg.jpg);
-    background-attachment: fixed;
-    /* height: 85vh; */
-    text-align: center;
-    padding: 6% 5%;
+  background-image: url(./images/us-bg.jpg);
+  background-attachment: fixed;
+  /* height: 85vh; */
+  text-align: center;
+  padding: 6% 5%;
 }
 
 main h1 {
-    font-size: 35px;
-    margin-bottom: 60px;
+  font-size: 35px;
+  margin-bottom: 60px;
 }
 
 main h1 a:hover {
-    transition: 0.5s;
+  transition: 0.5s;
 }
 
 .section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .container {
-    width: 20%;
-    line-height: 2;
+  width: 20%;
+  line-height: 2;
 }
 
-.container p{
-    font-size: 18px;
+.container p {
+  font-size: 18px;
 }
 
 .health {
-    background-image: url(./images/healthy-bg.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-    padding: 7%;
+  background-image: url(./images/healthy-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 7%;
 }
 
 .health h1 {
-    margin-bottom: 40px;
-    font-weight: 700;
-    font-size: 35px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 35px;
 }
 
 .health p {
-    font-size: 18px;
-    line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
-#more{
-    margin-top: 50px;
+#more {
+  margin-top: 50px;
 }
 
 .health #more a {
-    border: 1px solid white;
-    padding: 10px 30px;
+  border: 1px solid white;
+  padding: 10px 30px;
 }
 
 .health #more a:hover {
-    background-color: tomato;
-    transition: 0.5s;
+  background-color: tomato;
+  transition: 0.5s;
 }
 
 section {
-    background-image: url(./images/trainer-bg.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-    padding: 7% 0;
+  background-image: url(./images/trainer-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 7% 0;
 }
 
 section h1 {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 .trainers {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 50px auto 0;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px auto 0;
 }
 
-.hero{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative; 
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-.hero h3{
-    font-size: 20px;
-    margin: 10px 0 0;
+.hero h3 {
+  font-size: 20px;
+  margin: 10px 0 0;
 }
 
 .image {
-    border-radius: 15px;
-    margin: 20px 0;
+  border-radius: 15px;
+  margin: 20px 0;
 }
 
 .social-media {
-    margin: 0 auto;
-    background-color: white; 
-    border-radius: 30px;
-    width: fit-content;
-    position: absolute;
-    bottom: 1px;
-    z-index: 5;
-    left: 30px;
-    right: 20px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 30px;
+  width: fit-content;
+  position: absolute;
+  bottom: 1px;
+  z-index: 5;
+  left: 30px;
+  right: 20px;
 }
 
-.social-media i{
-    margin: 10px 20px;
-    color: red;
+.social-media i {
+  margin: 10px 20px;
+  color: red;
 }
 
-.social-media i:hover{
-    opacity: 0.8;
+.social-media i:hover {
+  opacity: 0.8;
 }
 
 figcaption {
-    display: flex;
+  display: flex;
 }
 
 figcaption img {
-    width: 50%;
+  width: 50%;
 }
 
-
 .contact {
-    width: 50%;
-    background-color: #27223f;
-    padding: 7% 3%;
+  width: 50%;
+  background-color: #27223f;
+  padding: 7% 3%;
 }
 
 .contact h1 {
-    font-size: 35px;
+  font-size: 35px;
 }
 
-form{
-    width: 80%;
-    position: relative;
+form {
+  width: 80%;
+  position: relative;
 }
 
 input {
-    width: 100%;
-    height: 50px;
-    color: black;
-    margin-top: 20px;
-    padding: 10px;
-    font-size: 16px;
+  width: 100%;
+  height: 50px;
+  color: black;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
 }
 
-#msg{
-    height: 120px;
-    margin-bottom: 60px;
+textarea {
+  padding: 10px;
+  border: 1px solid lightgray;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100px;
+  max-height: 150px;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 .btn {
-    cursor: pointer;
-    padding: 10px 70px;
-    background-color: red;
-    color: white;
-    font-size: 16px;
-    
-    border: 0;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    transition: 2s;
+  cursor: pointer;
+  padding: 10px 70px;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+
+  border: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: 2s;
 }
 
 .btn:hover {
-    background-color: lightgray;
-    color: black;
+  background-color: lightgray;
+  color: black;
 }
 
-footer{
-    background-color: rgb(7, 7, 27);
-    padding: 50px 0;
+footer {
+  background-color: rgb(7, 7, 27);
+  padding: 50px 0;
 }
 
-#footer{
-    width: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    line-height: 2.5;
-    margin: 0 auto;
+#footer {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 2.5;
+  margin: 0 auto;
 }
 
-.card{
-    cursor: pointer;
+.card {
+  cursor: pointer;
 }

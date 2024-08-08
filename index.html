@@ -119,11 +119,12 @@
         <img src="./images/contact-img.jpg" alt="">
         <div class="contact">
             <h1>CONTACT US</h1>
-            <form action="">
-                <input type="text" value="Name" required="">
-                <input type="email" value="Email" required="">
-                <input type="text" value="Phone Number" required="">
-                <input type="text" value="Message" required="" id="msg">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="fa546af9-99bf-4b7b-aae1-4292c6e5be2f">
+                <input type="text" placeholder="Name" required="">
+                <input type="email" placeholder="Email" required="">
+                <input type="text" placeholder="Phone Number" required="">
+                <textarea name="message" placeholder="Message" required></textarea>
                 <button type="submit" class="btn">SEND</button>
             </form>
         </div>
